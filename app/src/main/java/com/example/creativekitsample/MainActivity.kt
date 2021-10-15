@@ -42,13 +42,13 @@ private val STICKER_NAME = "sticker"
 
 class MainActivity : ComponentActivity() {
 
+    @ExperimentalCoilApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         snapFile  = File(cacheDir, SNAP_NAME)
         stickerFile  = File(cacheDir, STICKER_NAME)
         setContent {
             CreativekitSampleTheme {
-                // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
                     MainScreen()
                 }
