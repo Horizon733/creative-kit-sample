@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Creativekit sample</string>
-    <string name="snapchat_client_id">eae1b972-86d0-44f5-9f6b-a12f36049dc2</string>
+    <string name="snapchat_client_id">Your-api-key</string>
 </resources>
