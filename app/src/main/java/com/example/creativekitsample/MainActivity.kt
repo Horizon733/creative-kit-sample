@@ -50,7 +50,7 @@ class MainActivity : ComponentActivity() {
             CreativekitSampleTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
-                    Greeting()
+                    MainScreen()
                 }
             }
         }
@@ -59,7 +59,7 @@ class MainActivity : ComponentActivity() {
 
 @ExperimentalCoilApi
 @Composable
-fun Greeting() {
+fun MainScreen() {
     val context = LocalContext.current
     val snapCreativeKitApi = SnapCreative.getApi(context)
     val snapMediaFactory = SnapCreative.getMediaFactory(context)
@@ -192,7 +192,7 @@ fun copyFile(inputStream: InputStream, file: File){
 @Composable
 fun DefaultPreview() {
     CreativekitSampleTheme {
-        Greeting()
+        MainScreen()
     }
 }
 
