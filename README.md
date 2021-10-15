@@ -49,4 +49,23 @@
 </paths>
 ```
 - Add your own lens uuid from [my lenses](https://my-lenses.snapchat.com/lenses)
+  - procedure for capturing lens uuid
+    - [Click here](https://my-lenses.snapchat.com/lenses) to login to check out your lenses
+    - Now, as shown in below image, click on `chain` icon to copy link for your lens
+    - <img src="https://user-images.githubusercontent.com/57827233/137531014-b075f3dd-26a5-4874-8f2b-f90c0e02c5a1.png">
+    - Paste the same link in `new tab` you will be able to find uuid as below image shows
+    <img src="https://user-images.githubusercontent.com/57827233/137532975-170f5582-07af-4a5d-8a98-603f89ba54ca.png">
+- As you found your uuid, go inside `MainActivity.kt` find function `getLens()` and add your uuid
+```kotlin
+fun getLens(){
+...
+  val snapLensContent = SnapLensContent.createSnapLensContent(
+          "your lens uuid",
+          launchData
+      )
+...
+```
+- These are the only steps to do.
+
+## Please give this repo a Star, if this helps you!
 
