@@ -11,7 +11,7 @@
 
 | Project | Sample |
 | :--- | --- |
-| Android app that demonstrates use of Snapkit's Creative kit with new Jetpack Compose and latest Android Studio version.<br><br> What it does? <br><br> • Share Image on SnapChat <br>• Share Image with Sticker on SnapChat <br>• Open Lens on SnapChat <br>• Jetpack compose UI<br>• Light theme<br>• Lifecycle and Stateful<br>• No XML <br><br>  | <img src="video/login kit demo.gif" width="280" alt="Creative kit sample demo">|
+| Android app that demonstrates use of Snapkit's Creative kit with new Jetpack Compose and latest Android Studio version.<br><br> What it does? <br><br> • Share Image on SnapChat <br>• Share Image with Sticker on SnapChat <br>• Open Lens on SnapChat <br>• Jetpack compose UI<br>• Light theme<br>• Lifecycle and Stateful<br>• No XML <br><br>  | <img src="video/creative kit demo.gif" width="280" alt="Creative kit sample demo">|
 |  |  |
 
 # Intructions
