@@ -16,7 +16,7 @@
 | Android app that demonstrates use of Snapkit's Creative kit with new Jetpack Compose and latest Android Studio version.<br><br> What it does? <br><br> • Share Image on SnapChat <br>• Share Image with Sticker on SnapChat <br>• Open Lens on SnapChat <br>• Jetpack compose UI<br>• Light theme<br>• Lifecycle and Stateful<br>• No XML <br><br>  | <img src="video/creative kit demo.gif" width="280" alt="Creative kit sample demo">|
 |  |  |
 
-# Intructions
+# Instructions
 - Add your `client id` from Snapkit [Developer Portal](https://kit.snapchat.com/manage/) inside [strings.xml](https://github.com/Horizon733/snap-loginkit-sample/blob/master/app/src/main/res/values/strings.xml)
 ``` xml
 <string name="snapchat_client_id">Your client id</string>
